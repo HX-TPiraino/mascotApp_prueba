@@ -18,7 +18,7 @@ public class Usuario {
     public int dni;
     public LocalDate nacimiento;
     public String pais;
-
+    
     public Usuario() {
         
     }

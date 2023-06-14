@@ -28,6 +28,12 @@ public class Mascotapp_prueba {
         
         System.out.println(m1.getNombre() + " o tambien llamado " + m1.getApodo());
         System.out.println(m2.getApodo() + " Es el apodo de " + m2.getNombre() + " y es un " + m2.getTipo());
+        
+        System.out.println(m1);
+        
+        m1.pasear(100);
+        
+        System.out.println(m1);
     }
     
 }
