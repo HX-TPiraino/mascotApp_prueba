@@ -18,5 +18,18 @@ public class Usuario {
     public int dni;
     public LocalDate nacimiento;
     public String pais;
+
+    public Usuario() {
+        
+    }
+
+    public Usuario(String nombre, String apellido, int dni, LocalDate nacimiento, String pais) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.dni = dni;
+        this.nacimiento = nacimiento;
+        this.pais = pais;
+    }
+    
     
 }

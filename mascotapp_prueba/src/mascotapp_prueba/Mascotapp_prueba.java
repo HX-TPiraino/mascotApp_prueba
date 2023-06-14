@@ -29,7 +29,10 @@ public class Mascotapp_prueba {
         m1.cola = true;
         m1.color = "Negro";
         
+        Mascota m2 = new Mascota("Fredy", "Negro", "Perro");
+        
         System.out.println(m1.apodo + " o tambien llamado " + m1.nombre);
+        System.out.println(m2.apodo + " Es el apodo de " + m2.nombre + " y es un " + m2.tipo);
     }
     
 }
