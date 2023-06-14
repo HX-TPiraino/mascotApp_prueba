@@ -5,10 +5,18 @@
  */
 package mascotapp_prueba.entitys;
 
+import java.time.LocalDate;
+
 /**
  *
  * @author tpira
  */
 public class Usuario {
+    
+    public String nombre;
+    public String apellido;
+    public int dni;
+    public LocalDate nacimiento;
+    public String pais;
     
 }

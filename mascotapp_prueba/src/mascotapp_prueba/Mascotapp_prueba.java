@@ -5,6 +5,8 @@
  */
 package mascotapp_prueba;
 
+import mascotapp_prueba.entitys.Mascota;
+
 /**
  *
  * @author tpira
@@ -16,6 +18,18 @@ public class Mascotapp_prueba {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Mascota m1 = new Mascota();
+        
+        m1.apodo = "Corcho";
+        m1.nombre = "Don Corcho";
+        m1.tipo = "Perro";
+        m1.edad = 15;
+        m1.raza = "Callejero";
+        m1.cola = true;
+        m1.color = "Negro";
+        
+        System.out.println(m1.apodo + " o tambien llamado " + m1.nombre);
     }
     
 }
