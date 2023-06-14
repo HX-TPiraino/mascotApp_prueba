@@ -21,18 +21,13 @@ public class Mascotapp_prueba {
         
         Mascota m1 = new Mascota();
         
-        m1.apodo = "Corcho";
-        m1.nombre = "Don Corcho";
-        m1.tipo = "Perro";
-        m1.edad = 15;
-        m1.raza = "Callejero";
-        m1.cola = true;
-        m1.color = "Negro";
+        m1.setNombre("Don Corcho");
+        m1.setApodo("Corchito");
         
         Mascota m2 = new Mascota("Fredy", "Negro", "Perro");
         
-        System.out.println(m1.apodo + " o tambien llamado " + m1.nombre);
-        System.out.println(m2.apodo + " Es el apodo de " + m2.nombre + " y es un " + m2.tipo);
+        System.out.println(m1.getNombre() + " o tambien llamado " + m1.getApodo());
+        System.out.println(m2.getApodo() + " Es el apodo de " + m2.getNombre() + " y es un " + m2.getTipo());
     }
     
 }
