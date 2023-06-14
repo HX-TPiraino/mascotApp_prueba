@@ -6,6 +6,7 @@
 package mascotapp_prueba;
 
 import mascotapp_prueba.entitys.Mascota;
+import mascotapp_prueba.servicios.ServicioMascota;
 
 /**
  *
@@ -34,6 +35,12 @@ public class Mascotapp_prueba {
         m1.pasear(100);
         
         System.out.println(m1);
+        
+        ServicioMascota sm = new ServicioMascota();
+        
+        Mascota m3 = sm.crearMascota();
+        
+        System.out.println(m3);
     }
     
 }
